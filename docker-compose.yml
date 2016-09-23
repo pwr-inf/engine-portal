@@ -1,0 +1,7 @@
+portal-main:
+ build: .
+ ports:
+  - "8090:8080"
+ volumes:
+  - "./data/images:/images"
+ restart: always

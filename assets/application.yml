@@ -1,0 +1,11 @@
+# MONGODB (MongoProperties)
+spring:
+  data:
+    mongodb:
+      host: mongodb_host
+      port: mongodb_port
+      database: mongodb_db
+      username: mongodb_username
+      password: mongodb_pasword
+
+# Other Spring related properties
